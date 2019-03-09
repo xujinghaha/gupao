@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>gupao.patter.factory.funcFactory.IComputerFactory</OriginalElement>
+  <nodes>
+    <node x="105.0" y="80.0">gupao.patter.factory.funcFactory.IComputerFactory</node>
+    <node x="386.0" y="80.0">gupao.patter.factory.SamSum</node>
+    <node x="256.3452380952381" y="0.0">gupao.patter.factory.IComputer</node>
+    <node x="277.0" y="80.0">gupao.patter.factory.XiaoMi</node>
+    <node x="0.0" y="80.0">gupao.patter.factory.Lenvol</node>
+    <node x="127.41666666666669" y="160.0">gupao.patter.factory.funcFactory.LenvolFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="gupao.patter.factory.Lenvol" target="gupao.patter.factory.IComputer">
+      <point x="0.0" y="-15.0" />
+      <point x="42.5" y="50.0" />
+      <point x="267.3452380952381" y="50.0" />
+      <point x="-44.0" y="15.0" />
+    </edge>
+    <edge source="gupao.patter.factory.funcFactory.LenvolFactory" target="gupao.patter.factory.funcFactory.IComputerFactory">
+      <point x="-2.8421709430404007E-14" y="-15.0" />
+      <point x="190.91666666666666" y="135.0" />
+      <point x="181.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="gupao.patter.factory.XiaoMi" target="gupao.patter.factory.IComputer">
+      <point x="0.0" y="-15.0" />
+      <point x="321.5" y="60.0" />
+      <point x="311.3452380952381" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="gupao.patter.factory.funcFactory.LenvolFactory" target="gupao.patter.factory.Lenvol">
+      <point x="-42.33333333333337" y="-15.0" />
+      <point x="148.58333333333331" y="135.0" />
+      <point x="42.5" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="gupao.patter.factory.funcFactory.IComputerFactory" target="gupao.patter.factory.IComputer">
+      <point x="0.0" y="-15.0" />
+      <point x="181.0" y="60.0" />
+      <point x="289.3452380952381" y="60.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="gupao.patter.factory.SamSum" target="gupao.patter.factory.IComputer">
+      <point x="0.0" y="-15.0" />
+      <point x="435.0" y="60.0" />
+      <point x="333.3452380952381" y="60.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="gupao.patter.factory.funcFactory.LenvolFactory" target="gupao.patter.factory.IComputer">
+      <point x="42.333333333333286" y="-15.0" />
+      <point x="233.24999999999997" y="135.0" />
+      <point x="494.5" y="135.0" />
+      <point x="494.5" y="50.0" />
+      <point x="355.3452380952381" y="50.0" />
+      <point x="44.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="247.5" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
